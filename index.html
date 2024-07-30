@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaykay</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="bodyContainer">
+        <div class="logo">
+            <img id="logo" src="/Assets/logo.png"/>
+        </div>
+        <div class="txtNadaConsta">RH - Nada Consta</div>
+        <div class="form">
+            <form id="formulario">
+                <input id="name" type="text" title="Insira o nome completo." placeholder="NOME COMPLETO:" required/>
+                <input id="CPF" type="text" name="cpf" title="Digite um CPF no formato: XXX.XXX.XXX-XX" placeholder="CPF:" required/>    
+                <button id="vrf" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="containerSectors">
+        <div class="sectorPC"><strong>Polícia Civil</strong>
+            <div class="logo"><img src="./Assets/PC.png" alt=""></div>
+            <div class="containerPC">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sectorPM"><strong>Polícia Militar</strong>
+            <div class="logo"><img src="./Assets/PM.png" alt=""></div>
+            <div class="containerPM">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sectorPF"><strong>Polícia Federal</strong>
+            <div class="logo"><img src="./Assets/PF.png" alt=""></div>
+            <div class="containerPF">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sectorTSE"><strong>Tribunal Superior Eleitoral</strong>
+            <div class="logo"><img src="./Assets/TSE.png" alt=""></div>
+            <div class="containerTSE">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="conatinerIconDownload">
+        <div class="downloadIcon"><button class="btn-download"><img class="downloadImg" src="./Assets/download.svg" alt=""></div></button>
+    </div>
+</body>
+<script src="./Controller/index.js"></script>
+</html>
